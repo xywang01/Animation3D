@@ -1,4 +1,4 @@
-name = "animation_3d"
+name = "animation3d"
 __all__ = [
     "AnimationJoint",
     "AnimationLimb",
