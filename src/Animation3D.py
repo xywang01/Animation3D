@@ -1,6 +1,6 @@
 import numpy as np
-import AnimationJoint
-import AnimationLimb
+from AnimationJoint import AnimationJoint
+from AnimationLimb import AnimationLimb
 from view_matrix_3d import view_matrix_3d
 
 
