@@ -9,7 +9,7 @@ setuptools.setup(
     long_description="This is a long description",
     long_description_content_type="text/markdown",
     url="https://github.com/xywang01/Animation3D",
-    packages=setuptools.find_packages(),
+    packages=['Animation3D'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: MIT License",
@@ -18,5 +18,5 @@ setuptools.setup(
     install_requires=[
         'matplotlib',
         'numpy'
-    ]
+    ],
 )
