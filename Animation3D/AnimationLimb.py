@@ -37,8 +37,7 @@ class AnimationLimb:
                 np.asarray([self.joint1.x[frame], self.joint2.x[frame]]),
                 np.asarray([self.joint1.y[frame], self.joint2.y[frame]]),
             )
-            self.draw_object.set_3d_properties([(self.joint1.z[frame]),
-                                               self.joint2.z[frame]])
+            self.draw_object.set_3d_properties([(self.joint1.z[frame]), self.joint2.z[frame]])
         else:
             self.draw_object.set_data(
                 [self.joint1.x_2d[frame], self.joint2.x_2d[frame]],
