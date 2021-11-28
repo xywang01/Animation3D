@@ -1,7 +1,7 @@
 import numpy as np
-from AnimationJoint import AnimationJoint
-from AnimationLimb import AnimationLimb
-from view_matrix_3d import view_matrix_3d
+from .AnimationJoint import AnimationJoint
+from .AnimationLimb import AnimationLimb
+from .view_matrix_3d import view_matrix_3d
 
 
 class Animation3D:
