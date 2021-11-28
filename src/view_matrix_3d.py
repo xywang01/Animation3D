@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def viewing_matrix_3d(_azimuth, _elevation):
+def view_matrix_3d(_azimuth, _elevation):
     """ A view matrix, directly borrowed from MatLab's function viewmtx. This only implements the
      orthographical version """
     # only takes int

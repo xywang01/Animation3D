@@ -1,6 +1,7 @@
 import numpy as np
-from . import AnimationJoint, AnimationLimb
-from ..utilities.view_matrix_3d import viewing_matrix_3d
+import AnimationJoint
+import AnimationLimb
+from view_matrix_3d import view_matrix_3d
 
 
 class Animation3D:
@@ -13,7 +14,7 @@ class Animation3D:
         self.plt_ax = _ax
         self.plt_type = _plt_type
         self.view_angle = _view_angle
-        self.view_matrix = viewing_matrix_3d(self.view_angle[0], self.view_angle[1])
+        self.view_matrix = view_matrix_3d(self.view_angle[0], self.view_angle[1])
 
         self.n_frames, self.n_joints = None, None
 
