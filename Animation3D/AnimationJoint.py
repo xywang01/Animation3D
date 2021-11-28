@@ -50,8 +50,8 @@ class AnimationJoint:
 
     def update_draw(self, frame):
         if self.plt_type == '3D':
-            self.draw_object.set_data(np.asarray(self.x[frame]), np.asarray(self.y[frame]))
-            self.draw_object.set_3d_properties(np.asarray(self.z[frame]))
+            self.draw_object.set_data(np.asarray([self.x[frame]]), np.asarray([self.y[frame]]))
+            self.draw_object.set_3d_properties(np.asarray([self.z[frame]]))
         else:
             self.draw_object.set_data(self.x_2d[frame], self.y_2d[frame])
         return self.draw_object
